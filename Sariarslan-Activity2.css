@@ -1,0 +1,77 @@
+/*CENG311 Activity 2 css file*/
+
+/*styling for the table goes here*/
+body 
+{
+	width: 670px;
+	margin: 0 auto;
+	border: 1px solid black;
+	
+}
+
+table 
+{
+
+	border-collapse: collapse;
+	border: 1px solid black;
+	margin: 40px;
+}
+
+thead 
+{
+	background-color: yellow;
+}
+
+th, td 
+{
+	border: 1px solid black;
+	padding: .2em 1em .2em .5em;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.right 
+{
+	text-align: right;
+	background-color : yellow;
+	
+}
+
+tbody tr:nth-child(even) td 
+{
+	background-color: yellow;
+
+}
+#market{
+	background-color: white;
+	font-weight: bold;
+}
+#customer{
+	background-color: white;
+	font-weight: bold;
+}
+#editorial{
+	font-weight: bold;
+}
+#Employee{
+	text-align: center;
+	font-size: 20px;
+}
+#Total{
+	text-align: right;
+}
+#number{
+	text-align: right;
+}
+#s22{
+	background-color: white;
+}
+#s4{
+	background-color: white;
+}
+#s10{
+	background-color: white;
+}
+#s1{
+	background-color: white;
+}
